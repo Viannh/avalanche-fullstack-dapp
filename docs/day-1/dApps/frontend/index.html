@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avalanche Wallet Connect</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>❄️ Avalanche dApp</h1>
+        <p class="subtitle">Connect Wallet (Core Wallet)</p>
+
+        <button id="connectBtn">Connect Wallet</button>
+        <p id="error" style="color: red; margin-top: 10px;"></p>
+
+        <div class="card">
+            <div class="info-row">
+                <strong>Status:</strong>
+                <span id="status">Not Connected</span>
+            </div>
+            <div class="info-row">
+                <strong>Network:</strong>
+                <span id="network">-</span>
+            </div>
+            <div class="info-row">
+                <strong>Balance:</strong>
+                <span><span id="balance">-</span> AVAX</span>
+            </div>
+
+            <div class="address-section">
+                <strong>Wallet Address:</strong>
+                <p id="address">-</p>
+            </div>
+
+            <div class="footer-info">
+                <p>Trias Oktaviyan | 221011400089</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
